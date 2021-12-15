@@ -1,0 +1,1 @@
+export const lengthValidator = ( minLength:number) =>  (value:string) => value.length>=minLength ? undefined : "Password length should be greater than 6"
